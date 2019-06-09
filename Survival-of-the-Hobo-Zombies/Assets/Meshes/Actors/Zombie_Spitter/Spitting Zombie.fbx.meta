@@ -1,0 +1,937 @@
+fileFormatVersion: 2
+guid: 0b9429da5d21c2741aa8e5730648db60
+timeCreated: 1483178655
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Foot.L
+    100004: Foot.R
+    100006: Hand.L
+    100008: Hand.L_end
+    100010: Hand.R
+    100012: Hand.R_end
+    100014: Head
+    100016: Head_end
+    100018: Hobo
+    100020: Leg_IK.L
+    100022: Leg_IK.L_end
+    100024: Leg_IK.R
+    100026: Leg_IK.R_end
+    100028: LowerArm.L
+    100030: LowerArm.R
+    100032: LowerLeg.L
+    100034: LowerLeg.R
+    100036: Pelvis
+    100038: Pole_Target.L
+    100040: Pole_Target.L_end
+    100042: Pole_Target.R
+    100044: Pole_Target.R_end
+    100046: Root
+    100048: Spine
+    100050: //RootNode
+    100052: Toes.L
+    100054: Toes.L_end
+    100056: Toes.R
+    100058: Toes.R_end
+    100060: UpperArm.L
+    100062: UpperArm.R
+    100064: UpperLeg.L
+    100066: UpperLeg.R
+    400000: Armature
+    400002: Foot.L
+    400004: Foot.R
+    400006: Hand.L
+    400008: Hand.L_end
+    400010: Hand.R
+    400012: Hand.R_end
+    400014: Head
+    400016: Head_end
+    400018: Hobo
+    400020: Leg_IK.L
+    400022: Leg_IK.L_end
+    400024: Leg_IK.R
+    400026: Leg_IK.R_end
+    400028: LowerArm.L
+    400030: LowerArm.R
+    400032: LowerLeg.L
+    400034: LowerLeg.R
+    400036: Pelvis
+    400038: Pole_Target.L
+    400040: Pole_Target.L_end
+    400042: Pole_Target.R
+    400044: Pole_Target.R_end
+    400046: Root
+    400048: Spine
+    400050: //RootNode
+    400052: Toes.L
+    400054: Toes.L_end
+    400056: Toes.R
+    400058: Toes.R_end
+    400060: UpperArm.L
+    400062: UpperArm.R
+    400064: UpperLeg.L
+    400066: UpperLeg.R
+    4300000: Hobo
+    7400000: Armature|Attack
+    7400002: Armature|Get_Hit
+    7400004: Armature|Idle
+    7400006: Armature|Run
+    7400008: Armature|Walk
+    9500000: //RootNode
+    13700000: Hobo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: <Root Transform>
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Attack
+      takeName: Armature|Attack
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg_IK.L
+        weight: 1
+      - path: Armature/Root/Leg_IK.L/Leg_IK.L_end
+        weight: 1
+      - path: Armature/Root/Leg_IK.R
+        weight: 1
+      - path: Armature/Root/Leg_IK.R/Leg_IK.R_end
+        weight: 1
+      - path: Armature/Root/Pelvis
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/Head
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Root/Pole_Target.L
+        weight: 1
+      - path: Armature/Root/Pole_Target.L/Pole_Target.L_end
+        weight: 1
+      - path: Armature/Root/Pole_Target.R
+        weight: 1
+      - path: Armature/Root/Pole_Target.R/Pole_Target.R_end
+        weight: 1
+      - path: Hobo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Get_Hit
+      takeName: Armature|Get_Hit
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg_IK.L
+        weight: 1
+      - path: Armature/Root/Leg_IK.L/Leg_IK.L_end
+        weight: 1
+      - path: Armature/Root/Leg_IK.R
+        weight: 1
+      - path: Armature/Root/Leg_IK.R/Leg_IK.R_end
+        weight: 1
+      - path: Armature/Root/Pelvis
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/Head
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Root/Pole_Target.L
+        weight: 1
+      - path: Armature/Root/Pole_Target.L/Pole_Target.L_end
+        weight: 1
+      - path: Armature/Root/Pole_Target.R
+        weight: 1
+      - path: Armature/Root/Pole_Target.R/Pole_Target.R_end
+        weight: 1
+      - path: Hobo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg_IK.L
+        weight: 1
+      - path: Armature/Root/Leg_IK.L/Leg_IK.L_end
+        weight: 1
+      - path: Armature/Root/Leg_IK.R
+        weight: 1
+      - path: Armature/Root/Leg_IK.R/Leg_IK.R_end
+        weight: 1
+      - path: Armature/Root/Pelvis
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/Head
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Root/Pole_Target.L
+        weight: 1
+      - path: Armature/Root/Pole_Target.L/Pole_Target.L_end
+        weight: 1
+      - path: Armature/Root/Pole_Target.R
+        weight: 1
+      - path: Armature/Root/Pole_Target.R/Pole_Target.R_end
+        weight: 1
+      - path: Hobo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Run
+      takeName: Armature|Run
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg_IK.L
+        weight: 1
+      - path: Armature/Root/Leg_IK.L/Leg_IK.L_end
+        weight: 1
+      - path: Armature/Root/Leg_IK.R
+        weight: 1
+      - path: Armature/Root/Leg_IK.R/Leg_IK.R_end
+        weight: 1
+      - path: Armature/Root/Pelvis
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/Head
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Root/Pole_Target.L
+        weight: 1
+      - path: Armature/Root/Pole_Target.L/Pole_Target.L_end
+        weight: 1
+      - path: Armature/Root/Pole_Target.R
+        weight: 1
+      - path: Armature/Root/Pole_Target.R/Pole_Target.R_end
+        weight: 1
+      - path: Hobo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walk
+      takeName: Armature|Walk
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Leg_IK.L
+        weight: 1
+      - path: Armature/Root/Leg_IK.L/Leg_IK.L_end
+        weight: 1
+      - path: Armature/Root/Leg_IK.R
+        weight: 1
+      - path: Armature/Root/Leg_IK.R/Leg_IK.R_end
+        weight: 1
+      - path: Armature/Root/Pelvis
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/Head
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/Head/Head_end
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Pelvis/Spine/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Root/Pelvis/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Root/Pole_Target.L
+        weight: 1
+      - path: Armature/Root/Pole_Target.L/Pole_Target.L_end
+        weight: 1
+      - path: Armature/Root/Pole_Target.R
+        weight: 1
+      - path: Armature/Root/Pole_Target.R/Pole_Target.R_end
+        weight: 1
+      - path: Hobo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.7
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Spitting Zombie(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: Spitting Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Root
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -6.123234e-17, y: -0, z: 1, w: -3.3087225e-24}
+      scale: {x: 1, y: 0.99999934, z: 0.99999934}
+    - name: Leg_IK.L
+      parentName: Root
+      position: {x: 0.0009242073, y: -0.0019594477, z: 0.00052713195}
+      rotation: {x: 6.123234e-17, y: -6.211e-40, z: -1, w: 6.8346065e-24}
+      scale: {x: 1, y: 0.99999976, z: 0.99999976}
+    - name: Leg_IK.L_end
+      parentName: Leg_IK.L
+      position: {x: -0, y: 0.0016996919, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pole_Target.L
+      parentName: Root
+      position: {x: 0.0009242073, y: 0.0054619065, z: 0.0067534694}
+      rotation: {x: -0.00000005338508, y: -0.7071068, z: -0.7071068, w: -0.000000053385083}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Pole_Target.L_end
+      parentName: Pole_Target.L
+      position: {x: -0, y: 0.0011386104, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg_IK.R
+      parentName: Root
+      position: {x: -0.0009242073, y: -0.00092737644, z: 0.00052713195}
+      rotation: {x: 6.123234e-17, y: -6.211e-40, z: -1, w: 6.8346065e-24}
+      scale: {x: 1, y: 0.99999976, z: 0.99999976}
+    - name: Leg_IK.R_end
+      parentName: Leg_IK.R
+      position: {x: -0, y: 0.0016996919, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pole_Target.R
+      parentName: Root
+      position: {x: -0.0009242073, y: 0.0054619065, z: 0.0067534694}
+      rotation: {x: -0.00000005338508, y: -0.7071068, z: -0.7071068, w: -0.000000053385083}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Pole_Target.R_end
+      parentName: Pole_Target.R
+      position: {x: -0, y: 0.0011386104, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelvis
+      parentName: Root
+      position: {x: -0, y: -0.00086684263, z: 0.011727014}
+      rotation: {x: -0.00000005338508, y: -0.7071068, z: -0.7071068, w: -0.000000053385083}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Spine
+      parentName: Pelvis
+      position: {x: -0, y: 0.0029934528, z: 0}
+      rotation: {x: 4.2351647e-22, y: -0.000000043711385, z: 3.5527137e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Spine
+      position: {x: -0, y: 0.0059306994, z: 0}
+      rotation: {x: 5.04871e-29, y: 1.4210855e-14, z: 1.8512486e-29, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Head_end
+      parentName: Head
+      position: {x: -0, y: 0.005471844, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperArm.L
+      parentName: Spine
+      position: {x: -0.0020927456, y: 0.0021209847, z: -0.00010427612}
+      rotation: {x: 0.00000011475521, y: 0.000000060467315, z: 0.7126366, w: 0.7015334}
+      scale: {x: 1.0000007, y: 1.0000001, z: 0.9999999}
+    - name: LowerArm.L
+      parentName: UpperArm.L
+      position: {x: -4.4330953e-10, y: 0.0047743656, z: -4.3190082e-10}
+      rotation: {x: 0.000000038573404, y: -0.00000037997174, z: -0.007851183, w: 0.99996924}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000001}
+    - name: Hand.L
+      parentName: LowerArm.L
+      position: {x: 4.172325e-10, y: 0.004192746, z: 1.6787088e-10}
+      rotation: {x: -0, y: -0, z: 1.4656802e-14, w: 1}
+      scale: {x: 1.0000007, y: 1.0000008, z: 1.0000002}
+    - name: Hand.L_end
+      parentName: Hand.L
+      position: {x: -0, y: 0.0012577807, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperArm.R
+      parentName: Spine
+      position: {x: 0.0020927456, y: 0.0021209847, z: -0.000104277126}
+      rotation: {x: -0.00000005515058, y: 0.00000006046732, z: -0.7126366, w: 0.70153344}
+      scale: {x: 1.0000008, y: 1, z: 0.9999999}
+    - name: LowerArm.R
+      parentName: UpperArm.R
+      position: {x: -4.954636e-10, y: 0.0047743646, z: 4.693866e-10}
+      rotation: {x: -0.000000023954474, y: 0.00000040021595, z: 0.007851243, w: 0.99996924}
+      scale: {x: 1.0000005, y: 0.99999964, z: 1.0000006}
+    - name: Hand.R
+      parentName: LowerArm.R
+      position: {x: 1.04308125e-10, y: 0.004192745, z: 2.835877e-10}
+      rotation: {x: -0, y: -0, z: 9.586962e-15, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 0.9999999}
+    - name: Hand.R_end
+      parentName: Hand.R
+      position: {x: -0, y: 0.0012577807, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperLeg.L
+      parentName: Pelvis
+      position: {x: -0.0009242073, y: -0.00038365947, z: -0.000060533624}
+      rotation: {x: 0.000000043706525, y: 0.014884323, z: 0.99988925, w: 6.5061734e-10}
+      scale: {x: 1, y: 1.0000005, z: 0.99994445}
+    - name: LowerLeg.L
+      parentName: UpperLeg.L
+      position: {x: -2.4604976e-10, y: 0.0053699175, z: 3.9073822e-12}
+      rotation: {x: -0.029252589, y: 0.00000004372887, z: 0.000000001531475, w: 0.9995721}
+      scale: {x: 1.0000013, y: 0.9999975, z: 1.0000007}
+    - name: Foot.L
+      parentName: LowerLeg.L
+      position: {x: 6.509333e-11, y: 0.005561563, z: 1.2109796e-11}
+      rotation: {x: 0.54239935, y: 0.044428736, z: -0.06812853, w: 0.83617437}
+      scale: {x: 1.000001, y: 0.9999859, z: 0.9999599}
+    - name: Toes.L
+      parentName: Foot.L
+      position: {x: 1.58092e-10, y: 0.00089339074, z: -2.1187588e-11}
+      rotation: {x: 0.21922961, y: 0.03766584, z: -0.007921111, w: 0.97491384}
+      scale: {x: 1.0000006, y: 1.0000163, z: 0.9999841}
+    - name: Toes.L_end
+      parentName: Toes.L
+      position: {x: -0, y: 0.0010502705, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperLeg.R
+      parentName: Pelvis
+      position: {x: 0.0009242073, y: -0.00038365947, z: -0.000060533897}
+      rotation: {x: 0.00000004370654, y: 0.014884323, z: 0.99988925, w: 6.5061734e-10}
+      scale: {x: 1, y: 1.0000013, z: 0.99994427}
+    - name: LowerLeg.R
+      parentName: UpperLeg.R
+      position: {x: -2.4182734e-10, y: 0.005369917, z: 2.2926331e-11}
+      rotation: {x: -0.029252589, y: 0.000000043619956, z: -0.000000002190677, w: 0.9995721}
+      scale: {x: 1.0000013, y: 0.9999962, z: 0.99999815}
+    - name: Foot.R
+      parentName: LowerLeg.R
+      position: {x: 5.361948e-11, y: 0.005561563, z: -1.8568124e-11}
+      rotation: {x: 0.5457533, y: -0.04383294, z: 0.06721571, w: 0.83409476}
+      scale: {x: 0.9999994, y: 0.9999795, z: 0.99996525}
+    - name: Toes.R
+      parentName: Foot.R
+      position: {x: -8.475035e-11, y: 0.00090813177, z: 3.12466e-11}
+      rotation: {x: 0.2155199, y: -0.03660474, z: 0.006889794, w: 0.9757889}
+      scale: {x: 1.0000014, y: 1.000017, z: 0.9999839}
+    - name: Toes.R_end
+      parentName: Toes.R
+      position: {x: -0, y: 0.0010400631, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hobo
+      parentName: Spitting Zombie(Clone)
+      position: {x: -0, y: 2.0684972, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 72.81183, y: 72.81183, z: 72.81183}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
